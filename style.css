@@ -1,0 +1,173 @@
+ * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f2f4f7;
+            color: #222;
+        }
+
+.container {
+                width: 95%;
+                max-width: 1200px;
+                margin: 30px auto;
+                background: white;
+                padding: 30px;
+            }
+            
+            /* College Header */
+            
+            .header {
+                position: relative;
+                text-align: center;
+                border-bottom: 2px solid #222;
+                padding: 20px 160px 25px;
+                min-height: 230px;
+            }
+            
+            .header h1 {
+                margin: 0;
+                font-size: 25px;
+            }
+            
+            .header h2 {
+                margin: 8px 0;
+                font-size: 20px;
+            }
+            
+            .header p {
+                margin: 5px 0;
+            }
+
+            /* Logos */
+            
+            .college-logo {
+                position: absolute;
+                top: 45px;
+                width: 160px;
+                height: 140px;
+                object-fit: contain;
+            }
+            .logo-left {
+                left: 25px;
+            }
+            
+            .logo-right {
+                right: 25px;
+            }
+        .record-title {
+            text-align: center;
+            margin: 25px 0;
+        }
+
+        .record-title h2 {
+            margin: 5px;
+            letter-spacing: 2px;
+        }
+
+        .record-title h3 {
+            margin: 8px;
+        }
+
+        .student-details {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        .student-details td {
+            border: 1px solid #bbb;
+            padding: 10px;
+        }
+
+        .student-details .label {
+            width: 22%;
+            font-weight: bold;
+            background: #f0f0f0;
+        }
+
+        .index-title {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .index-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .index-table th,
+        .index-table td {
+            border: 1px solid #555;
+            padding: 9px;
+        }
+
+        .index-table th {
+            background: #e9ecef;
+            text-align: center;
+        }
+
+        .index-table td:first-child,
+        .index-table td:nth-child(2),
+        .index-table td:last-child {
+            text-align: center;
+        }
+
+        .index-table td:nth-child(4) {
+            text-align: center;
+        }
+
+        .program-link {
+            display: inline-block;
+            padding: 6px 12px;
+            text-decoration: none;
+            border: 1px solid #333;
+            border-radius: 4px;
+            color: #222;
+            background: #fff;
+        }
+
+        .program-link:hover {
+            background: #eee;
+        }
+
+        .instructions {
+            margin-top: 25px;
+            padding: 15px;
+            border-left: 5px solid #333;
+            background: #f7f7f7;
+        }
+
+        .instructions li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #ccc;
+            font-size: 13px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 98%;
+                padding: 15px;
+            }
+
+            .index-table {
+                font-size: 12px;
+            }
+
+            .index-table th,
+            .index-table td {
+                padding: 6px;
+            }
+
+            .student-details .label {
+                width: 30%;
+            }
+        }
